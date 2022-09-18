@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>JavaScript start</title>
+        <link rel="icon" type="image/x-icon" href="rose.png">
+        <link href="variables.css" rel="stylesheet" type="text/css">
+    </head>
+
+<body class="variables_prompt">
+
+<figure class="box">
+<em><h1 class="top1">JavaScript prompts</h1></em>
+</figure>
+
+    <div class="div1">
+        <fieldset class="alltjava">
+<script>
+
+const topic = "JavaScript";
+const pop = "popup boxes";
+const sen = "sentences";
+
+name = window.prompt("Enter your name:");
+like = window.prompt("Enter one thing you like:");
+from = window.prompt("Where you are from:")
+aboutyou = window.prompt("Tell me something else about you!:")
+
+
+let text = "<p>" + "Here you can see how" + " " + topic + + " " + "works." + " " + "With" + " " + topic + " " + "we can create different" + " " + pop + ", aswell as write" + " " + sen + "." + "</p>"
+let text2 = "<p style='color:white;''>" + "Hi" + " " + name + "!" + " " + "I hope you have a good day today!" + " " + "I also like" + " " + like + "." + " " + "And you are from" + " " + from + "!" + " " + "Wow! That is a beautiful place! I have been there quite some times! Although I'm from a computer. \n You wanted to share something else with me:" + " " + aboutyou + ". " + "Thank you for sharing that! I am glad we got to know each other. Bye, see you later!" + "</p>"
+document.write(text);
+document.write(text2);
+
+
+
+// let rebecka = "<p style='color:aliceblue;'>" + "In"
+    //country = window.prompt("Write a country:");  city = window.prompt("Write a city:");     population = window.prompt("Write the population:")
+// "In" + " " + country + " " + " the capital city is called" + " " + city + "." + " " + city + " " + "has about" + " " + population + " " + "living there today."
+//let rebecka2 = "<p style='color:white;''>" + " " + "In" + " " + country + " " + " the capital city is called" + " " + city + "." + " " + city + " " + "has about" + " " + population + " " + "living there today." + "</p>"
+
+
+</script>
+</fieldset>
+
+</div>
+
+<fieldset class="field2">
+    <legend class="legend">JavaScript Popup Boxes</legend>
+    <input class="alert" type="button" onclick="alert('Hi\nHope you have a good day')" value="Show alert box">
+    <input class="prompt" type="button" onclick="prompt('Type something')" value="Show prompt box">
+    <input class="confirm" type="button" onclick="confirm('OK or Cancel')" value="Show confirm box">
+  </fieldset>
+
+</body>
+
+</html>
